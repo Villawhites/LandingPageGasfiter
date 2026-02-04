@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://gasfiter-concepcion.onrender.com/sitemap.xml
+
+# Disallow admin pages
+Disallow: /login
+Disallow: /admin
