@@ -151,7 +151,7 @@ export const defaultContent = {
         title: 'Contacto Inmediato',
         subtitle: 'No espere más. Hablemos ahora por WhatsApp',
         description: 'Presupuestos transparentes y sin letra chica. Si tiene una urgencia, llame directamente al botón inferior.',
-        phone: '+56 9 1234 5678',
+        phone: '+56 9 3176 1674',
         email: 'contacto@gasfiterconcepcion.cl',
         address: 'Atención en todo el Gran Concepción',
         schedule: 'Lunes a Domingo: 24 Horas (Urgencias)',
