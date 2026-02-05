@@ -10,100 +10,100 @@ export const defaultContent = {
 
     // Hero Section
     hero: {
-        badge: 'Certificado SEC',
-        title: 'Servicios de Gasfitería',
-        titleHighlight: 'Profesional',
-        subtitle: 'en Concepción',
-        description: 'Instalación, reparación y mantención de gas con certificación SEC. Más de 15 años de experiencia brindando soluciones seguras y confiables.',
+        badge: 'Certificado SEC Clase 3',
+        title: 'Gasfiter Certificado SEC',
+        titleHighlight: 'Alejandro Saldias Jara',
+        subtitle: 'en Concepción - Urgencias 24/7',
+        description: '¿Sin agua caliente o con fuga de gas? Recupere su tranquilidad hoy mismo. Llego en menos de 45 minutos a todo el Gran Concepción. Garantía por escrito.',
         stats: [
             { number: '15+', label: 'Años de Experiencia' },
-            { number: '500+', label: 'Trabajos Realizados' },
-            { number: '100%', label: 'Clientes Satisfechos' },
+            { number: '500+', label: 'Proyectos Aprobados' },
+            { number: '24/7', label: 'Atención Emergencias' },
         ]
     },
 
     // About Section (Quién Soy)
     about: {
-        title: '¿Quién Soy?',
-        subtitle: 'Tu gasfiter de confianza en Concepción',
-        description: 'Soy un gasfiter certificado por la SEC (Superintendencia de Electricidad y Combustibles) con más de 15 años de experiencia en el rubro. Mi compromiso es brindar un servicio profesional, seguro y de calidad a todos mis clientes.',
-        description2: 'Me especializo en instalaciones de gas, reparaciones, mantenciones preventivas y certificaciones. Trabajo con responsabilidad y garantía en cada proyecto.',
+        title: 'Sobre Mí',
+        subtitle: 'Alejandro Saldias Jara - Instalador Autorizado SEC',
+        description: 'Más que un gasfiter, soy un profesional certificado SEC Clase 3 con más de 15 años de trayectoria en el Biobío. Me especializo en resolver lo que otros no pueden: regularización de Sello Rojo, fugas complejas y mantención de equipos de alta gama (Junkers, Splendid, Anwo).',
+        description2: 'Mi compromiso es simple: trabajo bien hecho a la primera, cumplimiento estricto de la normativa DS N°66 y respeto absoluto por su tiempo y propiedad.',
         image: null, // Will be base64 when uploaded
         features: [
-            'Certificación SEC vigente',
-            'Más de 15 años de experiencia',
-            'Garantía en todos los trabajos',
-            'Atención rápida y profesional',
-            'Presupuestos sin compromiso',
-            'Servicio a domicilio',
+            'Licencia SEC Clase 3 Vigente',
+            'Especialista en Sello Verde',
+            'Atención en Concepción, San Pedro, Talcahuano',
+            'Factura y Garantía Legal',
+            'Herramientas de Detección Digital',
+            'Vehículo Propio y Repuestos a Bordo',
         ]
     },
 
     // Services Section
     services: {
-        title: 'Servicios',
-        subtitle: 'Soluciones completas en gasfitería para tu hogar o negocio',
+        title: 'Servicios Profesionales',
+        subtitle: 'Soluciones definitivas para su hogar o empresa',
         items: [
             {
                 id: 1,
                 icon: '🔥',
-                title: 'Instalación de Gas',
-                description: 'Instalaciones nuevas de redes de gas natural y licuado, cumpliendo todas las normativas de seguridad.',
+                title: 'Reparación de Calefont',
+                description: '¿El calefont no enciende o se apaga? Reparamos Junkers, Splendid y todas las marcas en el acto. Recupera tu agua caliente hoy.',
             },
             {
                 id: 2,
-                icon: '🔧',
-                title: 'Reparaciones',
-                description: 'Reparación de fugas, artefactos a gas, calefones, estufas y todo tipo de equipos de gas.',
+                icon: '🚨',
+                title: 'Urgencias de Gas 24/7',
+                description: 'Detección y reparación inmediata de fugas de gas. Llegamos rápido a cualquier punto del Gran Concepción para asegurar tu hogar.',
             },
             {
                 id: 3,
-                icon: '🛡️',
-                title: 'Mantención Preventiva',
-                description: 'Revisiones periódicas para asegurar el correcto funcionamiento y seguridad de tus instalaciones.',
+                icon: '✅',
+                title: 'Certificación Sello Verde',
+                description: 'Regularizamos instalaciones con Sello Rojo o Amarillo. Tramitación completa TC6 ante la SEC para edificios y casas.',
             },
             {
                 id: 4,
-                icon: '📋',
-                title: 'Certificación SEC',
-                description: 'Certificación oficial de instalaciones de gas para cumplir con los requisitos de la SEC.',
+                icon: '🛠️',
+                title: 'Instalaciones Nuevas',
+                description: 'Proyectos de redes de gas natural y licuado bajo norma. Conversiones de cocina y estufas con certificación.',
             },
             {
                 id: 5,
-                icon: '🏠',
-                title: 'Proyectos Residenciales',
-                description: 'Diseño e implementación de sistemas de gas completos para casas y departamentos.',
+                icon: '🏢',
+                title: 'Mantención Edificios',
+                description: 'Planes preventivos para comunidades y administradores. Evite cortes de suministro y multas de la SEC.',
             },
             {
                 id: 6,
-                icon: '🏢',
-                title: 'Proyectos Comerciales',
-                description: 'Instalaciones para restaurantes, locales comerciales e industrias con altos estándares.',
+                icon: '💧',
+                title: 'Destapes y Filtraciones',
+                description: 'Gasfitería sanitaria integral. Solución a baja presión de agua, filtraciones ocultas y desagües tapados.',
             },
         ]
     },
 
     // Certifications Section
     certifications: {
-        title: 'Certificaciones',
-        subtitle: 'Acreditaciones que garantizan mi profesionalismo y compromiso con la seguridad',
+        title: 'Acreditaciones Oficiales',
+        subtitle: 'Su seguridad no es juego: Exija siempre credencial SEC',
         items: [
             {
                 id: 1,
-                title: 'Certificado SEC Clase 3',
-                description: 'Habilitado para instalaciones de gas',
+                title: 'Licencia SEC Clase 3',
+                description: 'Autorizado por el Gobierno de Chile para instalaciones de gas.',
                 image: null,
             },
             {
                 id: 2,
-                title: 'Curso de Seguridad en Gas',
-                description: 'Capacitación continua en normativas',
+                title: 'Certificación Junkers/Bosch',
+                description: 'Técnico especialista en tecnologías de condensación y tiro forzado.',
                 image: null,
             },
             {
                 id: 3,
-                title: 'Licencia Municipal',
-                description: 'Patente comercial vigente',
+                title: 'Curso Normativa DS-66',
+                description: 'Actualización constante en reglamentos de seguridad vigentes.',
                 image: null,
             },
         ]
@@ -111,55 +111,55 @@ export const defaultContent = {
 
     // Curriculum Section
     curriculum: {
-        title: 'Currículum',
-        subtitle: 'Conoce mi trayectoria profesional y experiencia en detalle',
+        title: 'Hoja de Vida Profesional',
+        subtitle: 'Transparencia total: Revise mis credenciales y antecedentes',
         pdfUrl: null, // Will be base64 when uploaded
         pdfName: null,
     },
 
     // Success Cases Section
     cases: {
-        title: 'Casos de Éxito',
-        subtitle: 'Algunos de los proyectos que he realizado con excelentes resultados',
+        title: 'Proyectos Realizados',
+        subtitle: 'Vecinos de Concepción que ya confían en mi trabajo',
         items: [
             {
                 id: 1,
-                title: 'Instalación Completa en Edificio',
-                description: 'Proyecto de instalación de red de gas para edificio de 20 departamentos en Concepción centro.',
+                title: 'Edificio Centro Concepción',
+                description: 'Regularización de Sello Rojo a Verde en comunidad de 40 departamentos. Trabajo terminado en 2 semanas.',
                 image: null,
-                tags: ['Residencial', 'Gas Natural', 'Certificación'],
+                tags: ['Sello Verde', 'Edificios', 'Concepción Centro'],
             },
             {
                 id: 2,
-                title: 'Restaurante La Esquina',
-                description: 'Instalación de sistema de gas para cocina industrial con todos los estándares de seguridad.',
+                title: 'Instalación Caldera San Pedro',
+                description: 'Cambio de caldera antigua por sistema de condensación eficiente en Lomas de San Andrés.',
                 image: null,
-                tags: ['Comercial', 'Cocina Industrial'],
+                tags: ['Calefacción', 'Eficiencia', 'San Pedro'],
             },
             {
                 id: 3,
-                title: 'Remodelación Casa Particular',
-                description: 'Actualización completa del sistema de gas, incluyendo calefón y estufa certificada.',
+                title: 'Emergencia Fuga Talcahuano',
+                description: 'Detección y reparación de fuga subterránea sin romper todo el piso. Cliente recuperó suministro en 4 horas.',
                 image: null,
-                tags: ['Residencial', 'Remodelación'],
+                tags: ['Urgencia', 'Fuga de Gas', 'Talcahuano'],
             },
         ]
     },
 
     // Contact Section
     contact: {
-        title: 'Contacto',
-        subtitle: 'Estoy disponible para atender tus consultas y proyectos',
-        description: '¿Necesitas un gasfiter certificado? Contáctame para una evaluación sin compromiso. Atiendo en Concepción y comunas aledañas.',
+        title: 'Contacto Inmediato',
+        subtitle: 'No espere más. Hablemos ahora por WhatsApp',
+        description: 'Presupuestos transparentes y sin letra chica. Si tiene una urgencia, llame directamente al botón inferior.',
         phone: '+56 9 1234 5678',
         email: 'contacto@gasfiterconcepcion.cl',
-        address: 'Concepción, Región del Biobío',
-        schedule: 'Lunes a Sábado: 08:00 - 20:00',
+        address: 'Atención en todo el Gran Concepción',
+        schedule: 'Lunes a Domingo: 24 Horas (Urgencias)',
     },
 
     // Footer
     footer: {
-        description: 'Gasfiter certificado SEC ofreciendo servicios profesionales de instalación, reparación y mantención de gas en Concepción y alrededores.',
-        copyright: '© 2024 Gasfiter Profesional. Todos los derechos reservados.',
+        description: 'Alejandro Saldias Jara - Gasfiter Certificado SEC Clase 3. Servicios profesionales en Concepción, Talcahuano, San Pedro, Chiguayante y Hualpén.',
+        copyright: '© 2024 Gasfiter Alejandro Saldias Jara. Todos los derechos reservados.',
     }
 }
