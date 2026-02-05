@@ -5,7 +5,7 @@ export const defaultContent = {
         primaryColor: '#2563eb',
         backgroundColor: '#0f172a',
         siteName: 'Gasfiter Profesional',
-        whatsappNumber: '+56912345678',
+        whatsappNumber: '+56931761674',
     },
 
     // Hero Section
