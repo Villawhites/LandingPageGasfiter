@@ -5,9 +5,9 @@ import http from 'http'
 // Configuración
 const PORT = process.env.PORT || 3000
 const SITE_URL = process.env.VITE_SITE_URL || `http://localhost:${PORT}`
-const PING_INTERVAL = 14 * 60 * 1000 // 14 minutos
+const PING_INTERVAL = 3 * 60 * 60 * 1000 // 3 horas
 
-console.log(`🚀 Iniciando servidor y autoping...`)
+console.log(`🚀 Iniciando servidor y autoping (cada 3 hrs)...`)
 console.log(`Target URL: ${SITE_URL}/ping`)
 
 // 1. Iniciar "serve" para archivos estáticos (dist)
